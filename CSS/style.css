@@ -1,0 +1,117 @@
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+body
+{
+    font-family: Inter;
+}
+.nav-font
+{
+    font-family: Inter;
+    font-size: 20px;
+}
+.banner-font
+{
+    color: white;
+}
+.banner-title
+{
+    font-size: 55px;
+    font-weight: 400;
+}
+.banner-subtitle
+{
+    font-size: 30px;
+    font-weight: 400;
+}
+.banner-butten
+{
+    display:inline-block;
+    width: 250px;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 30px;
+    border: 3px solid white;
+}
+.textmargin
+{
+    margin-left:210px;
+    margin-bottom:120px;
+}
+.infor
+{
+    margin-top: 70px;
+}
+.fix
+{
+    max-width: 1500px;
+}
+.infor_img
+{
+    width: 100%;
+    height: auto;
+}
+.infor_padding
+{
+    padding-right: 0px;
+}
+.infor-text
+{
+    margin-top: 20px;
+}
+.infor-pic
+{
+    margin-top: 30px;
+}
+.Infor-title
+{
+    font-size: 45px;
+    font-weight: 300;
+}
+.Infor-contant
+{
+    font-size: 22px;
+    margin-top: 20px;
+}
+.infor_secmargin
+{
+    margin-top: 120px;
+}
+.infor_thrmargin
+{
+    margin-top: 20px;
+}
+footer
+{
+    margin-top: 30px;
+    background-color: #3D3D3D;
+}
+.footerheight
+{
+    height: 125px;
+}
+.footer-color
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footerimg
+{
+    margin-left: 20px;
+}
+.B-title
+{
+    font-weight: 300;
+    position: relative;
+}
+.color
+{
+    position: absolute;
+    height: 2450px;
+    z-index: -1;
+    background-color: #F7C1CA;
+    box-shadow: 5px -1px 68px 0px #00000040;
+
+}
